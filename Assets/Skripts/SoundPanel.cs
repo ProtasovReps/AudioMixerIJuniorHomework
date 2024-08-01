@@ -12,8 +12,6 @@ public class SoundPanel : MonoBehaviour
     private float _lastVolume;
     private float _disabledVolumeValue = -80f;
 
-    private void Awake() => _lastVolume = 0;
-
     public void ToggleSound(bool isEnabled)
     {
         if (isEnabled)
